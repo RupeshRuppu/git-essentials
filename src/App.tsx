@@ -1,4 +1,3 @@
-import Branch2 from "./components/Branch2";
 import Branch3 from "./components/Branch3";
 import { StoreState, Dispatch } from "./redux/store";
 import { connect } from "react-redux";
@@ -21,7 +20,6 @@ function App(props: AppProps) {
 				<button onClick={props.sell}>Sell</button>
 				<button onClick={props.restock}>Restock</button>
 			</div>
-			<Branch2 />
 			<Branch3 />
 		</div>
 	);
